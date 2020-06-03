@@ -90,6 +90,7 @@
             this.textBoxDeadlift1RM = new System.Windows.Forms.TextBox();
             this.labelOHP1RM = new System.Windows.Forms.Label();
             this.textBoxOHP1RM = new System.Windows.Forms.TextBox();
+            this.labelHeader = new System.Windows.Forms.Label();
             this.groupBoxDeadliftW1.SuspendLayout();
             this.groupBoxOHPW1.SuspendLayout();
             this.groupBoxBenchW1.SuspendLayout();
@@ -107,10 +108,9 @@
             // labelSqautW1FirstSet
             // 
             this.labelSqautW1FirstSet.AutoSize = true;
-            this.labelSqautW1FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelSqautW1FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW1FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSqautW1FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelSqautW1FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW1FirstSet.Image")));
             this.labelSqautW1FirstSet.Location = new System.Drawing.Point(34, 27);
             this.labelSqautW1FirstSet.Name = "labelSqautW1FirstSet";
             this.labelSqautW1FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -120,8 +120,8 @@
             // labelSqautW1SecondSet
             // 
             this.labelSqautW1SecondSet.AutoSize = true;
+            this.labelSqautW1SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW1SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSqautW1SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW1SecondSet.Image")));
             this.labelSqautW1SecondSet.Location = new System.Drawing.Point(34, 57);
             this.labelSqautW1SecondSet.Name = "labelSqautW1SecondSet";
             this.labelSqautW1SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -131,8 +131,8 @@
             // labelSqautW1LastSet
             // 
             this.labelSqautW1LastSet.AutoSize = true;
+            this.labelSqautW1LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW1LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSqautW1LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW1LastSet.Image")));
             this.labelSqautW1LastSet.Location = new System.Drawing.Point(34, 87);
             this.labelSqautW1LastSet.Name = "labelSqautW1LastSet";
             this.labelSqautW1LastSet.Size = new System.Drawing.Size(72, 15);
@@ -147,7 +147,7 @@
             this.groupBoxDeadliftW1.Controls.Add(this.labelDeadW1LastSet);
             this.groupBoxDeadliftW1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxDeadliftW1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxDeadliftW1.Location = new System.Drawing.Point(303, 243);
+            this.groupBoxDeadliftW1.Location = new System.Drawing.Point(305, 296);
             this.groupBoxDeadliftW1.Name = "groupBoxDeadliftW1";
             this.groupBoxDeadliftW1.Size = new System.Drawing.Size(138, 116);
             this.groupBoxDeadliftW1.TabIndex = 4;
@@ -157,10 +157,9 @@
             // labelDeadW1FirstSet
             // 
             this.labelDeadW1FirstSet.AutoSize = true;
-            this.labelDeadW1FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelDeadW1FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW1FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDeadW1FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelDeadW1FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW1FirstSet.Image")));
             this.labelDeadW1FirstSet.Location = new System.Drawing.Point(32, 27);
             this.labelDeadW1FirstSet.Name = "labelDeadW1FirstSet";
             this.labelDeadW1FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -170,8 +169,8 @@
             // labelDeadW1SecondSet
             // 
             this.labelDeadW1SecondSet.AutoSize = true;
+            this.labelDeadW1SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW1SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeadW1SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW1SecondSet.Image")));
             this.labelDeadW1SecondSet.Location = new System.Drawing.Point(32, 57);
             this.labelDeadW1SecondSet.Name = "labelDeadW1SecondSet";
             this.labelDeadW1SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -181,8 +180,8 @@
             // labelDeadW1LastSet
             // 
             this.labelDeadW1LastSet.AutoSize = true;
+            this.labelDeadW1LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW1LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeadW1LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW1LastSet.Image")));
             this.labelDeadW1LastSet.Location = new System.Drawing.Point(32, 87);
             this.labelDeadW1LastSet.Name = "labelDeadW1LastSet";
             this.labelDeadW1LastSet.Size = new System.Drawing.Size(72, 15);
@@ -197,7 +196,7 @@
             this.groupBoxOHPW1.Controls.Add(this.labelOHPW1LastSet);
             this.groupBoxOHPW1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxOHPW1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxOHPW1.Location = new System.Drawing.Point(447, 243);
+            this.groupBoxOHPW1.Location = new System.Drawing.Point(449, 296);
             this.groupBoxOHPW1.Name = "groupBoxOHPW1";
             this.groupBoxOHPW1.Size = new System.Drawing.Size(138, 116);
             this.groupBoxOHPW1.TabIndex = 5;
@@ -207,10 +206,9 @@
             // labelOHPW1FirstSet
             // 
             this.labelOHPW1FirstSet.AutoSize = true;
-            this.labelOHPW1FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelOHPW1FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW1FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOHPW1FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelOHPW1FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW1FirstSet.Image")));
             this.labelOHPW1FirstSet.Location = new System.Drawing.Point(33, 27);
             this.labelOHPW1FirstSet.Name = "labelOHPW1FirstSet";
             this.labelOHPW1FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -220,8 +218,8 @@
             // labelOHPW1SecondSet
             // 
             this.labelOHPW1SecondSet.AutoSize = true;
+            this.labelOHPW1SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW1SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOHPW1SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW1SecondSet.Image")));
             this.labelOHPW1SecondSet.Location = new System.Drawing.Point(33, 57);
             this.labelOHPW1SecondSet.Name = "labelOHPW1SecondSet";
             this.labelOHPW1SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -231,8 +229,8 @@
             // labelOHPW1LastSet
             // 
             this.labelOHPW1LastSet.AutoSize = true;
+            this.labelOHPW1LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW1LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOHPW1LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW1LastSet.Image")));
             this.labelOHPW1LastSet.Location = new System.Drawing.Point(33, 87);
             this.labelOHPW1LastSet.Name = "labelOHPW1LastSet";
             this.labelOHPW1LastSet.Size = new System.Drawing.Size(72, 15);
@@ -247,7 +245,7 @@
             this.groupBoxBenchW1.Controls.Add(this.labelBPW1LastSet);
             this.groupBoxBenchW1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxBenchW1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxBenchW1.Location = new System.Drawing.Point(159, 243);
+            this.groupBoxBenchW1.Location = new System.Drawing.Point(161, 296);
             this.groupBoxBenchW1.Name = "groupBoxBenchW1";
             this.groupBoxBenchW1.Size = new System.Drawing.Size(138, 116);
             this.groupBoxBenchW1.TabIndex = 6;
@@ -257,10 +255,9 @@
             // labelBPW1FirstSet
             // 
             this.labelBPW1FirstSet.AutoSize = true;
-            this.labelBPW1FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelBPW1FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW1FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBPW1FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelBPW1FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW1FirstSet.Image")));
             this.labelBPW1FirstSet.Location = new System.Drawing.Point(31, 27);
             this.labelBPW1FirstSet.Name = "labelBPW1FirstSet";
             this.labelBPW1FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -270,8 +267,8 @@
             // labelBPW1SecondSet
             // 
             this.labelBPW1SecondSet.AutoSize = true;
+            this.labelBPW1SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW1SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBPW1SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW1SecondSet.Image")));
             this.labelBPW1SecondSet.Location = new System.Drawing.Point(31, 57);
             this.labelBPW1SecondSet.Name = "labelBPW1SecondSet";
             this.labelBPW1SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -281,8 +278,8 @@
             // labelBPW1LastSet
             // 
             this.labelBPW1LastSet.AutoSize = true;
+            this.labelBPW1LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW1LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBPW1LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW1LastSet.Image")));
             this.labelBPW1LastSet.Location = new System.Drawing.Point(31, 87);
             this.labelBPW1LastSet.Name = "labelBPW1LastSet";
             this.labelBPW1LastSet.Size = new System.Drawing.Size(72, 15);
@@ -298,7 +295,7 @@
             this.groupBoxSquatW1.Controls.Add(this.labelSqautW1LastSet);
             this.groupBoxSquatW1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxSquatW1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxSquatW1.Location = new System.Drawing.Point(15, 243);
+            this.groupBoxSquatW1.Location = new System.Drawing.Point(17, 296);
             this.groupBoxSquatW1.Name = "groupBoxSquatW1";
             this.groupBoxSquatW1.Size = new System.Drawing.Size(138, 116);
             this.groupBoxSquatW1.TabIndex = 7;
@@ -308,7 +305,7 @@
             // textBoxSquat1RM
             // 
             this.textBoxSquat1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSquat1RM.Location = new System.Drawing.Point(171, 24);
+            this.textBoxSquat1RM.Location = new System.Drawing.Point(177, 101);
             this.textBoxSquat1RM.MaxLength = 3;
             this.textBoxSquat1RM.Name = "textBoxSquat1RM";
             this.textBoxSquat1RM.Size = new System.Drawing.Size(100, 23);
@@ -318,10 +315,10 @@
             // labelSquat1RPM
             // 
             this.labelSquat1RPM.AutoSize = true;
+            this.labelSquat1RPM.BackColor = System.Drawing.Color.Transparent;
             this.labelSquat1RPM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSquat1RPM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelSquat1RPM.Image = ((System.Drawing.Image)(resources.GetObject("labelSquat1RPM.Image")));
-            this.labelSquat1RPM.Location = new System.Drawing.Point(43, 27);
+            this.labelSquat1RPM.Location = new System.Drawing.Point(49, 104);
             this.labelSquat1RPM.Name = "labelSquat1RPM";
             this.labelSquat1RPM.Size = new System.Drawing.Size(122, 15);
             this.labelSquat1RPM.TabIndex = 9;
@@ -330,10 +327,10 @@
             // labelWeek1
             // 
             this.labelWeek1.AutoSize = true;
+            this.labelWeek1.BackColor = System.Drawing.Color.Transparent;
             this.labelWeek1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWeek1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelWeek1.Image = ((System.Drawing.Image)(resources.GetObject("labelWeek1.Image")));
-            this.labelWeek1.Location = new System.Drawing.Point(12, 216);
+            this.labelWeek1.Location = new System.Drawing.Point(14, 269);
             this.labelWeek1.Name = "labelWeek1";
             this.labelWeek1.Size = new System.Drawing.Size(49, 15);
             this.labelWeek1.TabIndex = 10;
@@ -343,7 +340,7 @@
             // 
             this.buttonCalculate.BackColor = System.Drawing.SystemColors.ControlLight;
             this.buttonCalculate.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCalculate.Location = new System.Drawing.Point(196, 146);
+            this.buttonCalculate.Location = new System.Drawing.Point(196, 215);
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(75, 23);
             this.buttonCalculate.TabIndex = 11;
@@ -355,7 +352,7 @@
             // 
             this.buttonReset.BackColor = System.Drawing.SystemColors.ControlLight;
             this.buttonReset.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonReset.Location = new System.Drawing.Point(308, 146);
+            this.buttonReset.Location = new System.Drawing.Point(336, 215);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(75, 23);
             this.buttonReset.TabIndex = 12;
@@ -366,10 +363,10 @@
             // labelWeek2
             // 
             this.labelWeek2.AutoSize = true;
+            this.labelWeek2.BackColor = System.Drawing.Color.Transparent;
             this.labelWeek2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWeek2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelWeek2.Image = ((System.Drawing.Image)(resources.GetObject("labelWeek2.Image")));
-            this.labelWeek2.Location = new System.Drawing.Point(12, 378);
+            this.labelWeek2.Location = new System.Drawing.Point(14, 431);
             this.labelWeek2.Name = "labelWeek2";
             this.labelWeek2.Size = new System.Drawing.Size(49, 15);
             this.labelWeek2.TabIndex = 17;
@@ -384,7 +381,7 @@
             this.groupBoxSqautW2.Controls.Add(this.labelSqautW2LastSet);
             this.groupBoxSqautW2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxSqautW2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxSqautW2.Location = new System.Drawing.Point(15, 405);
+            this.groupBoxSqautW2.Location = new System.Drawing.Point(17, 458);
             this.groupBoxSqautW2.Name = "groupBoxSqautW2";
             this.groupBoxSqautW2.Size = new System.Drawing.Size(138, 116);
             this.groupBoxSqautW2.TabIndex = 16;
@@ -394,10 +391,9 @@
             // labelSqautW2FirstSet
             // 
             this.labelSqautW2FirstSet.AutoSize = true;
-            this.labelSqautW2FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelSqautW2FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW2FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSqautW2FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelSqautW2FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW2FirstSet.Image")));
             this.labelSqautW2FirstSet.Location = new System.Drawing.Point(34, 27);
             this.labelSqautW2FirstSet.Name = "labelSqautW2FirstSet";
             this.labelSqautW2FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -407,8 +403,8 @@
             // labelSqautW2SecondSet
             // 
             this.labelSqautW2SecondSet.AutoSize = true;
+            this.labelSqautW2SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW2SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSqautW2SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW2SecondSet.Image")));
             this.labelSqautW2SecondSet.Location = new System.Drawing.Point(34, 57);
             this.labelSqautW2SecondSet.Name = "labelSqautW2SecondSet";
             this.labelSqautW2SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -418,8 +414,8 @@
             // labelSqautW2LastSet
             // 
             this.labelSqautW2LastSet.AutoSize = true;
+            this.labelSqautW2LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW2LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSqautW2LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW2LastSet.Image")));
             this.labelSqautW2LastSet.Location = new System.Drawing.Point(34, 87);
             this.labelSqautW2LastSet.Name = "labelSqautW2LastSet";
             this.labelSqautW2LastSet.Size = new System.Drawing.Size(72, 15);
@@ -434,7 +430,7 @@
             this.groupBoxBenchW2.Controls.Add(this.labelBPW2LastSet);
             this.groupBoxBenchW2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxBenchW2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxBenchW2.Location = new System.Drawing.Point(159, 405);
+            this.groupBoxBenchW2.Location = new System.Drawing.Point(161, 458);
             this.groupBoxBenchW2.Name = "groupBoxBenchW2";
             this.groupBoxBenchW2.Size = new System.Drawing.Size(138, 116);
             this.groupBoxBenchW2.TabIndex = 15;
@@ -444,10 +440,9 @@
             // labelBPW2FirstSet
             // 
             this.labelBPW2FirstSet.AutoSize = true;
-            this.labelBPW2FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelBPW2FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW2FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBPW2FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelBPW2FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW2FirstSet.Image")));
             this.labelBPW2FirstSet.Location = new System.Drawing.Point(31, 27);
             this.labelBPW2FirstSet.Name = "labelBPW2FirstSet";
             this.labelBPW2FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -457,8 +452,8 @@
             // labelBPW2SecondSet
             // 
             this.labelBPW2SecondSet.AutoSize = true;
+            this.labelBPW2SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW2SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBPW2SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW2SecondSet.Image")));
             this.labelBPW2SecondSet.Location = new System.Drawing.Point(31, 57);
             this.labelBPW2SecondSet.Name = "labelBPW2SecondSet";
             this.labelBPW2SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -468,8 +463,8 @@
             // labelBPW2LastSet
             // 
             this.labelBPW2LastSet.AutoSize = true;
+            this.labelBPW2LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW2LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBPW2LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW2LastSet.Image")));
             this.labelBPW2LastSet.Location = new System.Drawing.Point(31, 87);
             this.labelBPW2LastSet.Name = "labelBPW2LastSet";
             this.labelBPW2LastSet.Size = new System.Drawing.Size(72, 15);
@@ -484,7 +479,7 @@
             this.groupBoxOHPW2.Controls.Add(this.labelOHPW2LastSet);
             this.groupBoxOHPW2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxOHPW2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxOHPW2.Location = new System.Drawing.Point(447, 405);
+            this.groupBoxOHPW2.Location = new System.Drawing.Point(449, 458);
             this.groupBoxOHPW2.Name = "groupBoxOHPW2";
             this.groupBoxOHPW2.Size = new System.Drawing.Size(138, 116);
             this.groupBoxOHPW2.TabIndex = 14;
@@ -494,10 +489,9 @@
             // labelOHPW2FirstSet
             // 
             this.labelOHPW2FirstSet.AutoSize = true;
-            this.labelOHPW2FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelOHPW2FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW2FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOHPW2FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelOHPW2FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW2FirstSet.Image")));
             this.labelOHPW2FirstSet.Location = new System.Drawing.Point(33, 27);
             this.labelOHPW2FirstSet.Name = "labelOHPW2FirstSet";
             this.labelOHPW2FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -507,8 +501,8 @@
             // labelOHPW2SecondSet
             // 
             this.labelOHPW2SecondSet.AutoSize = true;
+            this.labelOHPW2SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW2SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOHPW2SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW2SecondSet.Image")));
             this.labelOHPW2SecondSet.Location = new System.Drawing.Point(33, 57);
             this.labelOHPW2SecondSet.Name = "labelOHPW2SecondSet";
             this.labelOHPW2SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -518,8 +512,8 @@
             // labelOHPW2LastSet
             // 
             this.labelOHPW2LastSet.AutoSize = true;
+            this.labelOHPW2LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW2LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOHPW2LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW2LastSet.Image")));
             this.labelOHPW2LastSet.Location = new System.Drawing.Point(33, 87);
             this.labelOHPW2LastSet.Name = "labelOHPW2LastSet";
             this.labelOHPW2LastSet.Size = new System.Drawing.Size(72, 15);
@@ -534,7 +528,7 @@
             this.groupBoxDeadliftW2.Controls.Add(this.labelDeadW2LastSet);
             this.groupBoxDeadliftW2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxDeadliftW2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxDeadliftW2.Location = new System.Drawing.Point(303, 405);
+            this.groupBoxDeadliftW2.Location = new System.Drawing.Point(305, 458);
             this.groupBoxDeadliftW2.Name = "groupBoxDeadliftW2";
             this.groupBoxDeadliftW2.Size = new System.Drawing.Size(138, 116);
             this.groupBoxDeadliftW2.TabIndex = 13;
@@ -544,10 +538,9 @@
             // labelDeadW2FirstSet
             // 
             this.labelDeadW2FirstSet.AutoSize = true;
-            this.labelDeadW2FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelDeadW2FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW2FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDeadW2FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelDeadW2FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW2FirstSet.Image")));
             this.labelDeadW2FirstSet.Location = new System.Drawing.Point(32, 27);
             this.labelDeadW2FirstSet.Name = "labelDeadW2FirstSet";
             this.labelDeadW2FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -557,8 +550,8 @@
             // labelDeadW2SecondSet
             // 
             this.labelDeadW2SecondSet.AutoSize = true;
+            this.labelDeadW2SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW2SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeadW2SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW2SecondSet.Image")));
             this.labelDeadW2SecondSet.Location = new System.Drawing.Point(32, 57);
             this.labelDeadW2SecondSet.Name = "labelDeadW2SecondSet";
             this.labelDeadW2SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -568,8 +561,8 @@
             // labelDeadW2LastSet
             // 
             this.labelDeadW2LastSet.AutoSize = true;
+            this.labelDeadW2LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW2LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeadW2LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW2LastSet.Image")));
             this.labelDeadW2LastSet.Location = new System.Drawing.Point(32, 87);
             this.labelDeadW2LastSet.Name = "labelDeadW2LastSet";
             this.labelDeadW2LastSet.Size = new System.Drawing.Size(72, 15);
@@ -579,10 +572,10 @@
             // labelWeek3
             // 
             this.labelWeek3.AutoSize = true;
+            this.labelWeek3.BackColor = System.Drawing.Color.Transparent;
             this.labelWeek3.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWeek3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelWeek3.Image = ((System.Drawing.Image)(resources.GetObject("labelWeek3.Image")));
-            this.labelWeek3.Location = new System.Drawing.Point(12, 538);
+            this.labelWeek3.Location = new System.Drawing.Point(14, 591);
             this.labelWeek3.Name = "labelWeek3";
             this.labelWeek3.Size = new System.Drawing.Size(49, 15);
             this.labelWeek3.TabIndex = 22;
@@ -597,7 +590,7 @@
             this.groupBoxSqautW3.Controls.Add(this.labelSqautW3LastSet);
             this.groupBoxSqautW3.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxSqautW3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxSqautW3.Location = new System.Drawing.Point(15, 565);
+            this.groupBoxSqautW3.Location = new System.Drawing.Point(17, 618);
             this.groupBoxSqautW3.Name = "groupBoxSqautW3";
             this.groupBoxSqautW3.Size = new System.Drawing.Size(138, 116);
             this.groupBoxSqautW3.TabIndex = 21;
@@ -607,10 +600,9 @@
             // labelSqautW3FirstSet
             // 
             this.labelSqautW3FirstSet.AutoSize = true;
-            this.labelSqautW3FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelSqautW3FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW3FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSqautW3FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelSqautW3FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW3FirstSet.Image")));
             this.labelSqautW3FirstSet.Location = new System.Drawing.Point(34, 27);
             this.labelSqautW3FirstSet.Name = "labelSqautW3FirstSet";
             this.labelSqautW3FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -620,8 +612,8 @@
             // labelSqautW3SecondSet
             // 
             this.labelSqautW3SecondSet.AutoSize = true;
+            this.labelSqautW3SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW3SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSqautW3SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW3SecondSet.Image")));
             this.labelSqautW3SecondSet.Location = new System.Drawing.Point(34, 57);
             this.labelSqautW3SecondSet.Name = "labelSqautW3SecondSet";
             this.labelSqautW3SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -631,8 +623,8 @@
             // labelSqautW3LastSet
             // 
             this.labelSqautW3LastSet.AutoSize = true;
+            this.labelSqautW3LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelSqautW3LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSqautW3LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelSqautW3LastSet.Image")));
             this.labelSqautW3LastSet.Location = new System.Drawing.Point(34, 87);
             this.labelSqautW3LastSet.Name = "labelSqautW3LastSet";
             this.labelSqautW3LastSet.Size = new System.Drawing.Size(72, 15);
@@ -647,7 +639,7 @@
             this.groupBoxBenchW3.Controls.Add(this.labelBPW3LastSet);
             this.groupBoxBenchW3.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxBenchW3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxBenchW3.Location = new System.Drawing.Point(159, 565);
+            this.groupBoxBenchW3.Location = new System.Drawing.Point(161, 618);
             this.groupBoxBenchW3.Name = "groupBoxBenchW3";
             this.groupBoxBenchW3.Size = new System.Drawing.Size(138, 116);
             this.groupBoxBenchW3.TabIndex = 20;
@@ -657,10 +649,9 @@
             // labelBPW3FirstSet
             // 
             this.labelBPW3FirstSet.AutoSize = true;
-            this.labelBPW3FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelBPW3FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW3FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBPW3FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelBPW3FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW3FirstSet.Image")));
             this.labelBPW3FirstSet.Location = new System.Drawing.Point(31, 27);
             this.labelBPW3FirstSet.Name = "labelBPW3FirstSet";
             this.labelBPW3FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -670,8 +661,8 @@
             // labelBPW3SecondSet
             // 
             this.labelBPW3SecondSet.AutoSize = true;
+            this.labelBPW3SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW3SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBPW3SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW3SecondSet.Image")));
             this.labelBPW3SecondSet.Location = new System.Drawing.Point(31, 57);
             this.labelBPW3SecondSet.Name = "labelBPW3SecondSet";
             this.labelBPW3SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -681,8 +672,8 @@
             // labelBPW3LastSet
             // 
             this.labelBPW3LastSet.AutoSize = true;
+            this.labelBPW3LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelBPW3LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBPW3LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelBPW3LastSet.Image")));
             this.labelBPW3LastSet.Location = new System.Drawing.Point(31, 87);
             this.labelBPW3LastSet.Name = "labelBPW3LastSet";
             this.labelBPW3LastSet.Size = new System.Drawing.Size(72, 15);
@@ -697,7 +688,7 @@
             this.groupBoxOHPW3.Controls.Add(this.labelOHPW3LastSet);
             this.groupBoxOHPW3.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxOHPW3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxOHPW3.Location = new System.Drawing.Point(447, 565);
+            this.groupBoxOHPW3.Location = new System.Drawing.Point(449, 618);
             this.groupBoxOHPW3.Name = "groupBoxOHPW3";
             this.groupBoxOHPW3.Size = new System.Drawing.Size(138, 116);
             this.groupBoxOHPW3.TabIndex = 19;
@@ -707,10 +698,9 @@
             // labelOHPW3FirstSet
             // 
             this.labelOHPW3FirstSet.AutoSize = true;
-            this.labelOHPW3FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelOHPW3FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW3FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOHPW3FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelOHPW3FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW3FirstSet.Image")));
             this.labelOHPW3FirstSet.Location = new System.Drawing.Point(33, 27);
             this.labelOHPW3FirstSet.Name = "labelOHPW3FirstSet";
             this.labelOHPW3FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -720,8 +710,8 @@
             // labelOHPW3SecondSet
             // 
             this.labelOHPW3SecondSet.AutoSize = true;
+            this.labelOHPW3SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW3SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOHPW3SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW3SecondSet.Image")));
             this.labelOHPW3SecondSet.Location = new System.Drawing.Point(33, 57);
             this.labelOHPW3SecondSet.Name = "labelOHPW3SecondSet";
             this.labelOHPW3SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -731,8 +721,8 @@
             // labelOHPW3LastSet
             // 
             this.labelOHPW3LastSet.AutoSize = true;
+            this.labelOHPW3LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelOHPW3LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOHPW3LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelOHPW3LastSet.Image")));
             this.labelOHPW3LastSet.Location = new System.Drawing.Point(33, 87);
             this.labelOHPW3LastSet.Name = "labelOHPW3LastSet";
             this.labelOHPW3LastSet.Size = new System.Drawing.Size(72, 15);
@@ -747,7 +737,7 @@
             this.groupBoxDeadliftW3.Controls.Add(this.labelDeadW3LastSet);
             this.groupBoxDeadliftW3.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxDeadliftW3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBoxDeadliftW3.Location = new System.Drawing.Point(303, 565);
+            this.groupBoxDeadliftW3.Location = new System.Drawing.Point(305, 618);
             this.groupBoxDeadliftW3.Name = "groupBoxDeadliftW3";
             this.groupBoxDeadliftW3.Size = new System.Drawing.Size(138, 116);
             this.groupBoxDeadliftW3.TabIndex = 18;
@@ -757,10 +747,9 @@
             // labelDeadW3FirstSet
             // 
             this.labelDeadW3FirstSet.AutoSize = true;
-            this.labelDeadW3FirstSet.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.labelDeadW3FirstSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW3FirstSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDeadW3FirstSet.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.labelDeadW3FirstSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW3FirstSet.Image")));
             this.labelDeadW3FirstSet.Location = new System.Drawing.Point(32, 27);
             this.labelDeadW3FirstSet.Name = "labelDeadW3FirstSet";
             this.labelDeadW3FirstSet.Size = new System.Drawing.Size(65, 15);
@@ -770,8 +759,8 @@
             // labelDeadW3SecondSet
             // 
             this.labelDeadW3SecondSet.AutoSize = true;
+            this.labelDeadW3SecondSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW3SecondSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeadW3SecondSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW3SecondSet.Image")));
             this.labelDeadW3SecondSet.Location = new System.Drawing.Point(32, 57);
             this.labelDeadW3SecondSet.Name = "labelDeadW3SecondSet";
             this.labelDeadW3SecondSet.Size = new System.Drawing.Size(65, 15);
@@ -781,8 +770,8 @@
             // labelDeadW3LastSet
             // 
             this.labelDeadW3LastSet.AutoSize = true;
+            this.labelDeadW3LastSet.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadW3LastSet.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDeadW3LastSet.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadW3LastSet.Image")));
             this.labelDeadW3LastSet.Location = new System.Drawing.Point(32, 87);
             this.labelDeadW3LastSet.Name = "labelDeadW3LastSet";
             this.labelDeadW3LastSet.Size = new System.Drawing.Size(72, 15);
@@ -792,10 +781,10 @@
             // labelBench1RM
             // 
             this.labelBench1RM.AutoSize = true;
+            this.labelBench1RM.BackColor = System.Drawing.Color.Transparent;
             this.labelBench1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBench1RM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelBench1RM.Image = ((System.Drawing.Image)(resources.GetObject("labelBench1RM.Image")));
-            this.labelBench1RM.Location = new System.Drawing.Point(43, 75);
+            this.labelBench1RM.Location = new System.Drawing.Point(49, 152);
             this.labelBench1RM.Name = "labelBench1RM";
             this.labelBench1RM.Size = new System.Drawing.Size(125, 15);
             this.labelBench1RM.TabIndex = 24;
@@ -804,7 +793,7 @@
             // textBoxBench1RM
             // 
             this.textBoxBench1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBench1RM.Location = new System.Drawing.Point(171, 72);
+            this.textBoxBench1RM.Location = new System.Drawing.Point(177, 149);
             this.textBoxBench1RM.Name = "textBoxBench1RM";
             this.textBoxBench1RM.Size = new System.Drawing.Size(100, 23);
             this.textBoxBench1RM.TabIndex = 23;
@@ -812,10 +801,10 @@
             // labelDeadlift1RM
             // 
             this.labelDeadlift1RM.AutoSize = true;
+            this.labelDeadlift1RM.BackColor = System.Drawing.Color.Transparent;
             this.labelDeadlift1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDeadlift1RM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelDeadlift1RM.Image = ((System.Drawing.Image)(resources.GetObject("labelDeadlift1RM.Image")));
-            this.labelDeadlift1RM.Location = new System.Drawing.Point(287, 27);
+            this.labelDeadlift1RM.Location = new System.Drawing.Point(293, 104);
             this.labelDeadlift1RM.Name = "labelDeadlift1RM";
             this.labelDeadlift1RM.Size = new System.Drawing.Size(133, 15);
             this.labelDeadlift1RM.TabIndex = 26;
@@ -824,7 +813,7 @@
             // textBoxDeadlift1RM
             // 
             this.textBoxDeadlift1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxDeadlift1RM.Location = new System.Drawing.Point(426, 24);
+            this.textBoxDeadlift1RM.Location = new System.Drawing.Point(432, 101);
             this.textBoxDeadlift1RM.Name = "textBoxDeadlift1RM";
             this.textBoxDeadlift1RM.Size = new System.Drawing.Size(100, 23);
             this.textBoxDeadlift1RM.TabIndex = 25;
@@ -832,10 +821,11 @@
             // labelOHP1RM
             // 
             this.labelOHP1RM.AutoSize = true;
+            this.labelOHP1RM.BackColor = System.Drawing.Color.Transparent;
             this.labelOHP1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOHP1RM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.labelOHP1RM.Image = ((System.Drawing.Image)(resources.GetObject("labelOHP1RM.Image")));
-            this.labelOHP1RM.Location = new System.Drawing.Point(305, 78);
+            this.labelOHP1RM.Location = new System.Drawing.Point(311, 155);
             this.labelOHP1RM.Name = "labelOHP1RM";
             this.labelOHP1RM.Size = new System.Drawing.Size(115, 15);
             this.labelOHP1RM.TabIndex = 28;
@@ -844,17 +834,30 @@
             // textBoxOHP1RM
             // 
             this.textBoxOHP1RM.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxOHP1RM.Location = new System.Drawing.Point(426, 75);
+            this.textBoxOHP1RM.Location = new System.Drawing.Point(432, 152);
             this.textBoxOHP1RM.Name = "textBoxOHP1RM";
             this.textBoxOHP1RM.Size = new System.Drawing.Size(100, 23);
             this.textBoxOHP1RM.TabIndex = 27;
+            // 
+            // labelHeader
+            // 
+            this.labelHeader.AutoSize = true;
+            this.labelHeader.BackColor = System.Drawing.Color.Transparent;
+            this.labelHeader.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHeader.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labelHeader.Location = new System.Drawing.Point(221, 29);
+            this.labelHeader.Name = "labelHeader";
+            this.labelHeader.Size = new System.Drawing.Size(172, 25);
+            this.labelHeader.TabIndex = 29;
+            this.labelHeader.Text = "5/3/1 Calculator ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(599, 696);
+            this.ClientSize = new System.Drawing.Size(602, 753);
+            this.Controls.Add(this.labelHeader);
             this.Controls.Add(this.labelOHP1RM);
             this.Controls.Add(this.textBoxOHP1RM);
             this.Controls.Add(this.labelDeadlift1RM);
@@ -975,6 +978,7 @@
         private System.Windows.Forms.TextBox textBoxDeadlift1RM;
         private System.Windows.Forms.Label labelOHP1RM;
         private System.Windows.Forms.TextBox textBoxOHP1RM;
+        private System.Windows.Forms.Label labelHeader;
     }
 }
 
