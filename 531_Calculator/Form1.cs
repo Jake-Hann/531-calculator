@@ -57,7 +57,7 @@ namespace _531_Calculator
 
         private void SetSquatWeights(int repMax)
         {
-            labelSqautW1FirstSet.Text = "5 x " + WeekOneFirstSet(repMax) + " kg";
+            labelSqautW1FirstSet.Text = "5 x " + WeekOneFirstSet(repMax).ToString() + " kg";
             labelSqautW1SecondSet.Text = "5 x " + WeekOneSecondSet(repMax) + " kg";
             labelSqautW1LastSet.Text = "5+ x " + WeekOneLastSet(repMax) + " kg";
 
@@ -176,61 +176,61 @@ namespace _531_Calculator
             labelOHPW3LastSet.Text = "1+ x 95%";
         }
 
-        private double TrainingMax (int repMax)
+        private double TrainingMax (double repMax)
         {
             // Training max = 90% of 1rm
             return (repMax / 100) * 90;
         }
 
-        private double WeekOneFirstSet (int repMax)
+        private double WeekOneFirstSet (double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 65;
         }
 
-        private double WeekOneSecondSet(int repMax)
+        private double WeekOneSecondSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 75;
         }
 
-        private double WeekOneLastSet(int repMax)
+        private double WeekOneLastSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 85;
         }
 
-        private double WeekTwoFirstSet(int repMax)
+        private double WeekTwoFirstSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 70;
         }
 
-        private double WeekTwoSecondSet(int repMax)
+        private double WeekTwoSecondSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 80;
         }
 
-        private double WeekTwoLastSet(int repMax)
+        private double WeekTwoLastSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 90;
         }
 
-        private double WeekThreeFirstSet(int repMax)
+        private double WeekThreeFirstSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 75;
         }
 
-        private double WeekThreeSecondSet(int repMax)
+        private double WeekThreeSecondSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 85;
         }
 
-        private double WeekThreeLastSet(int repMax)
+        private double WeekThreeLastSet(double repMax)
         {
             double tm = TrainingMax(repMax);
             return (tm / 100) * 95;
