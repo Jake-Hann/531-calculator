@@ -1,3 +1,2 @@
 # 531 Calculator
-Windows Forms Application created with Visual Studio.
-It calculates weights for the 5/3/1 training routine, all weights are based on 90% of the users inputed 1 rep max.
+### A Windows Forms Application that calculates a trainees weights for one mesocycle of the popular weightlifting routine [5/3/1](https://jimwendler.com/blogs/jimwendler-com/101065094-5-3-1-for-a-beginner).
